@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Model\Review;
 use App\Model\Product;
+use Illuminate\Http\Request;
 use App\Http\Requests\ReviewRequest;
 use App\Http\Resources\ReviewResource;
-use Illuminate\Http\Request;
-use Symfony\Component\HttpFoundation\Response;
 use App\Exceptions\ProductNotBelongsToUser;
+use Symfony\Component\HttpFoundation\Response;
 
 
 class ReviewController extends Controller
